@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+   
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  .home-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+   
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .home-icon i {
+    color: #080808;
+    font-size: 15px;
+  }
+  .home-icon i:hover {
+    color: #f3030f;
+    font-size: 15px;
+  }
+  .arrow-icon {
+    display: inline-block;
+    width: 10px;
+    padding-left: 1px;
+  
+    
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .arrow-icon i {
+    color: #111010;
+    font-size: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .arrow-icon {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+    
+    .arrow-icon i {
+      font-size: 16px;
+    }
+  }
+  
+  
+  .list {
+    float: left;
+    width: 20%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #ccc;
+  }
+  
+  .list li {
+    padding: 2px;
+    transition: background-color 0.3s ease;
+  }
+  .list li a{text-decoration: none;}
+  
+  .list li:hover {
+    background-color: #06f52a;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .list li {
+      font-size: 16px;
+    }
+  }
+  

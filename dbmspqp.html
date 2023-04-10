@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PDF Downloads</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<style>
+    header{background-color: #4CAF50;
+    }
+         .home-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+   
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .home-icon i {
+    color: #fbf7f7;
+    font-size: 15px;
+  }
+  .home-icon i:hover {
+    color: #f3030f;
+    font-size: 15px;
+  }
+        .blink {
+          color: red;
+            padding-top: 3em;
+    animation: blink 0.8s infinite;
+    font-size: 1emem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes blink {
+    50% {
+        color: #4CAF50;
+        
+    }
+}
+
+        table {
+	border-collapse: collapse;
+	width: 50%;
+	margin: 0 auto;
+}
+
+th {
+	background-color: #333;
+	color: #fff;
+	padding: 12px;
+	text-align: left;
+}
+
+td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.download {
+	display: block;
+	text-align: center;
+	padding: 8px;
+	background-color: #4CAF50;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.download:hover {
+	background-color: #3e8e41;
+}
+.new{ animation: new 1s infinite;
+    font-size: xx-small;
+    font-weight: bold;
+
+}
+@keyframes new {
+    50% {
+      font-size: 0.6em;
+        color: #e33804;
+        
+    }
+  }
+  .back-button {
+    position: fixed;
+    top: 1em;
+    display: inline-block;
+    margin-left: 1em;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #0df106;
+  }
+  
+  .back-button:active {
+    background-color: #005cbf;
+  }
+  
+  
+  .back-button:hover {
+    background-color: #0df106;
+  }
+  
+  .back-button:active {
+    background-color: #005cbf;
+  }
+  
+ 
+    </style>
+</head>
+<body>
+  <a href="index.html" class="back-button">&#8592; Back</a>
+	<div class="blink"><marquee behavior="alternate" >Galgotias  University Internal Previous Year Paper</marquee><br>
+    <br>Course : DBMS</div>
+	<br>
+    
+    <table>
+		<tr>
+			<th> DBMS Previous year Paper</th>
+			<th>Download Link</th>
+		</tr>
+		<tr>
+			<td>CAT 1 (December 2022)</td>
+			<td>
+        <a href="pdf1.pdf" download class="download">Download</a>
+      </td>
+		</tr>
+		<tr>
+			<td>CAT 2 (January 2023)</td>
+			<td><a href="pdf2.pdf" download class="download">Download</a></td>
+		</tr>
+		<tr>
+			<td>ETE (January 2023)&nbsp;<sup class="new">NEW</sup></td>
+			<td><a href="pdf3.pdf" download class="download">Download</a></td>
+		</tr>
+	</table>
+  
+</body>
+</html>

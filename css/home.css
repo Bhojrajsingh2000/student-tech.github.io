@@ -1,3 +1,17 @@
+body{
+ background-image: url(https://i.gifer.com/NBL6.gif);
+ background-repeat: no-repeat;
+ background-attachment: fixed; 
+  background-position-x: right;
+  background-position-y: 50%;
+ padding: 0px;
+  margin: 0px;
+}
+@media(max-width:600px){
+  body{ padding: 0px;
+    margin: 0px;
+  background-image: none;}
+}
 header {
     position: sticky;
     top: 0px;
@@ -10,14 +24,34 @@ header {
   }
   
   .logo  {
-  margin-left: 4em;
-   
+  margin-left: 2em;
+  height: 60%;
+  width: 10em;
   
     font-size: 24px;
     font-weight: bold;
     color: #333;
     text-decoration: none;
   }
+  right{
+    height: 60%;
+    width: 20em;
+  }
+  @media(max-width:600px){
+    right{
+      height: 40%;
+      width: 10em;
+    }
+  .logo{
+    margin-left: 0em;
+   height: 50%;
+  width: 5em;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }}
+  
   .mca{
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -147,129 +181,211 @@ nav li:hover {
 
     }
   }
-  footer{
-  margin-top: 10%;
-  width: 100%;
-  background: #111;
-}
-footer .content{
-  max-width: 1350px;
-  margin: auto;
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-footer .content p,a{
-  color: #fff;
-}
-footer .content .box{
-  width: 33%;
-  transition: all 0.4s ease;
-}
-footer .content .topic{
-  font-size: 22px;
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 16px;
+  footer {
+    color: #fff;
+    background-color: #121213;
+    padding: 3em;
 
-}
-footer .content p{
-  text-align: justify;
-}
-footer .content .lower .topic{
-  margin: 24px 0 5px 0;
-}
-footer .content .lower i{
-  padding-right: 16px;
-}
-footer .content .middle{
-  padding-left: 80px;
-}
-footer .content .middle a{
-  line-height: 32px;
-}
-footer .content .right input[type="text"]{
-  height: 45px;
-  width: 100%;
-  outline: none;
-  color: #d9d9d9;
-  background: #000;
-  border-radius: 5px;
-  padding-left: 10px;
-  font-size: 17px;
-  border: 2px solid #222222;
-}
-footer .content .right input[type="submit"]{
-  height: 42px;
-  width: 100%;
-  font-size: 18px;
-  color: #d9d9d9;
-  background: #eb2f06;
-  outline: none;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  cursor: pointer;
-  margin-top: 12px;
-  border: 2px solid #eb2f06;
-  transition: all 0.3s ease-in-out;
-}
-.content .right input[type="submit"]:hover{
-  background: none;
-  color:  #eb2f06;
-}
-footer .content .media-icons a{
-  font-size: 16px;
-  height: 45px;
-  width: 45px;
-  display: inline-block;
-  text-align: center;
-  line-height: 43px;
-  border-radius: 5px;
-  border: 2px solid #222222;
-  margin: 30px 5px 0 0;
-  transition: all 0.3s ease;
-}
-.content .media-icons a:hover{
-  border-color: #eb2f06;
-}
-footer .bottom{
-  width: 100%;
-  text-align: right;
-  color: #d9d9d9;
-  padding: 0 40px 5px 0;
-}
-footer .bottom a{
-  color: #eb2f06;
-}
-footer a{
-  transition: all 0.3s ease;
-}
-footer a:hover{
-  color:red;
-}
-@media (max-width:1100px) {
-  footer .content .middle{
-    padding-left: 50px;
+    font-size: 14px;
+    line-height: 1;
+   
   }
-}
-@media (max-width:950px){
-  footer .content .box{
-    width: 50%;
+  
+  footer h3 {
+    font-size: 18px;
+    margin-top: 0;
+    
+    font-family:Arial;
   }
-  .content .right{
-    margin-top: 40px;
+  
+  footer ul {
+    float: left;
+    width: 30%;
+    height: 30%;
+    list-style: none;
+    padding: 0;
+    margin: 1;
+    font-family:Arial;
+    
   }
-}
-@media (max-width:560px){
-  footer{
-    position: relative;
+  
+  footer ul li {
+    padding-top: 0em;
+   padding: 0.2em;
   }
-  footer .content .box{
-    width: 100%;
-    margin-top: 30px;
+  
+  footer ul li a {
+   
+    color: #fffcfc;
+    text-decoration: none;
   }
-  footer .content .middle{
-    padding-left: 0;
+  
+  footer ul.social-icons li {
+    
+    display: inline-block;
+   
   }
+  
+  footer ul.social-icons li:last-child {
+    
+    margin-right: 0;
+  }
+  
+  footer ul.social-icons li a {
+
+    color: #faf7f7;
+    font-size: 18px;
+   
+    width: 40px;
+   
+
+  } 
+  @media(max-width:600px){
+    footer h3 {
+    font-size: 18px;
+    margin-top: 0;
+    
+    font-family:Arial;
+  }
+  
+  footer ul {
+    float: left;
+    width: 30%;
+    height: 30%;
+    list-style: none;
+    padding: 0;
+    margin: 1;
+    font-family:Arial;
+    
+  }
+  
+  footer ul li {
+    padding-top: 0em;
+   padding: 0.2em;
+  }
+  
+  footer ul li a {
+   
+    color: #fffcfc;
+    text-decoration: none;
+  }
+  
+  footer ul.social-icons li {
+    
+    display: inline-block;
+   
+  }
+  
+  footer ul.social-icons li:last-child {
+    
+    margin-right: 0;
+  }
+  
+  footer ul.social-icons li a {
+
+    color: #faf7f7;
+    font-size: 18px;
+   
+    width: 40px;
+   
+
+  } 
+@media (max-width:600px){
+  footer {height: 40%;
+    color: #fff;
+    background-color: #080808;
+    padding: 5em;
+    margin-bottom: 0px;
+
+    font-size: 11px;
+    line-height: 1;
+   
+  }
+  
+  footer h3 {
+    font-size: 14px;
+    margin-top: 0;
+    
+    font-family:Arial;
+  }
+  
+  footer ul {
+    
+   
+    list-style: none;
+    padding: 0;
+    padding-bottom: 2em;
+   
+    font-family:Arial;
+    
+  }
+  
+  footer ul li {
+    padding-top: 0em;
+   padding: 0.2em;
+  }
+  
+  footer ul li a {
+   
+    color: #fffcfc;
+    text-decoration: none;
+  }
+  
+  footer ul.social-icons li {
+    
+    display: inline-block;
+   
+  }
+  
+  footer ul.social-icons li:last-child {
+    
+    margin-right: 0;
+  }
+  
+  footer ul.social-icons li a {
+
+    color: #faf7f7;
+    font-size: 12px;
+   
+    width: 10px;
+   
+
+  } 
+ 
+  .responsive-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    margin: 0.5em;
+    margin-bottom: 0.5em;
+
+  }
+
+  /* adjust button styles for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .responsive-button {
+      padding: 10px 20px;
+      font-size: 11px;
+    }
+  }
+
+  /* adjust button styles for larger screens */
+  @media only screen and (min-width: 1200px) {
+    .responsive-button {
+      padding: 14px 28px;
+      font-size: 11px;
+    }
+  }
+
+  /* add hover effect to button */
+  .responsive-button:hover {
+    background-color: #ea2a03;
+  } 
 }

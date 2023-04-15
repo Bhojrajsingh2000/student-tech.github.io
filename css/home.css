@@ -1,9 +1,5 @@
 body{
- background-image: url(https://i.gifer.com/NBL6.gif);
- background-repeat: no-repeat;
- background-attachment: fixed; 
-  background-position-x: right;
-  background-position-y: 50%;
+
  padding: 0px;
   margin: 0px;
 }
@@ -185,6 +181,7 @@ nav li:hover {
     color: #fff;
     background-color: #121213;
     padding: 3em;
+   height:100%;
 
     font-size: 14px;
     line-height: 1;
@@ -291,7 +288,7 @@ nav li:hover {
 
   } 
 @media (max-width:600px){
-  footer {height: 40%;
+  footer {height: 100%;
     color: #fff;
     background-color: #080808;
     padding: 5em;

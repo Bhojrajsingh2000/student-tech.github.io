@@ -1,7 +1,8 @@
 body{
-
+ 
  padding: 0px;
   margin: 0px;
+  margin-bottom: 0px;
 }
 @media(max-width:600px){
   body{ padding: 0px;
@@ -181,7 +182,6 @@ nav li:hover {
     color: #fff;
     background-color: #121213;
     padding: 3em;
-   height:100%;
 
     font-size: 14px;
     line-height: 1;
@@ -385,4 +385,4 @@ nav li:hover {
   .responsive-button:hover {
     background-color: #ea2a03;
   } 
-}
+}}

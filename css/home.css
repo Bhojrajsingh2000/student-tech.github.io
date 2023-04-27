@@ -350,7 +350,7 @@ nav li:hover {
   } 
  
   .responsive-button {
-    background-color: #4CAF50;
+    background-color: green;
     border: none;
     color: white;
     padding: 5px;
@@ -368,9 +368,9 @@ nav li:hover {
   /* adjust button styles for smaller screens */
   @media only screen and (max-width: 600px) {
     .responsive-button {
-     width:500px;
+      width:500px;
       padding: 10px 20px;
-      font-size: 11px;
+      font-size: 16px;
     }
   }
 

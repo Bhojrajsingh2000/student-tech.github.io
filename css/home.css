@@ -368,19 +368,13 @@ nav li:hover {
   /* adjust button styles for smaller screens */
   @media only screen and (max-width: 600px) {
     .responsive-button {
+     width:500px;
       padding: 10px 20px;
       font-size: 11px;
     }
   }
 
-  /* adjust button styles for larger screens */
-  @media only screen and (min-width: 1200px) {
-    .responsive-button {
-      padding: 14px 28px;
-      font-size: 11px;
-    }
-  }
-
+ 
   /* add hover effect to button */
   .responsive-button:hover {
     background-color: #ea2a03;
